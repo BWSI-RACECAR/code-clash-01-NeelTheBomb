@@ -3,7 +3,7 @@ class Solution:
     def isPalindrome(self, s):
             #type s: string
             #return type: boolean
-            if (len(s) < 6):
+            if (len(s) <= 6):
                  return False
             g = s[::-1]
             if (g == s):
