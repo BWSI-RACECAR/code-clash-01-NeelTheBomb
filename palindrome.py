@@ -8,6 +8,7 @@ class Solution:
             g = s[::-1]
             if (g == s):
                 return True
+            return False
             
             
             #TODO: Write code below to return a boolean value with the solution to the prompt.
