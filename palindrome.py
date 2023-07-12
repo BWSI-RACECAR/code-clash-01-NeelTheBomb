@@ -5,7 +5,7 @@ class Solution:
             #return type: boolean
             if (len(s) < 6):
                  return False
-            g = s.reverse()
+            g = s[::-1]
             if (g == s):
                 return True
             
